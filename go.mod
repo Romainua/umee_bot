@@ -1,4 +1,4 @@
-module tg_bot_stars
+module tg_bot_umee
 
 go 1.17
 
