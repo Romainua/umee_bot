@@ -99,6 +99,7 @@ func main() {
 				)
 				//recived status of all validatords with command
 				//TO DO replace rpc with port
+				//need to change rpc endpoint
 				out, err = exec.Command("umeed", "q", "staking", "validators", "--node", "https://umee.vincagame.com/rpc", "--output", "json").Output()
 
 				if err != nil {
